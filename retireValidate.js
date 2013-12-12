@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
     	$("#investmentReturn").mask("99.9");
-    	$("#currentSavings").mask("###9.99", {reverse:true, maxlength:false});
-    	$("#payment,#currentFund, #requiredIncome").mask("###9",{reverse:true,maxlength:false});
+    	//$("#currentSavings").mask("###9.99", {reverse:true, maxlength:false});
+    	$("#payment,#currentFund, #requiredIncome, #currentSavings").mask("###9",{reverse:true,maxlength:false});
     	$("#currentAge, #retirementAge, #dependantAge").mask("999");	
 
 	$.validator.setDefaults({ignore:[]});
